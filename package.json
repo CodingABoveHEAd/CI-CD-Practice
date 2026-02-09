@@ -2,7 +2,7 @@
   "name": "learning-ci_cd",
   "version": "1.0.0",
   "description": "practice ci/cd",
-  "main": "main.js",
+  "main": "api/main.js",
   "type":"module",
   "scripts": {
     "start": "node main.js"
