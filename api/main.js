@@ -1,8 +1,9 @@
 import express from "express";
+
 const app = express();
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello from Niloy's website!" });
+  res.json({ message: "Hello from Vercel!" });
 });
 
-module.exports = app;
+export default app;
