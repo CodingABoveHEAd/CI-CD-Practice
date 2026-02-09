@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.json({ message: "Hello from Vercel!" });
+  res.json({ message: "Hello from Vercel version 2!" });
 });
 
 export default app;
