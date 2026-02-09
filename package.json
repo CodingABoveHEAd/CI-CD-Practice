@@ -1,0 +1,19 @@
+{
+  "name": "learning-ci_cd",
+  "version": "1.0.0",
+  "description": "practice ci/cd",
+  "main": "main.js",
+  "type":"module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "niloy",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
